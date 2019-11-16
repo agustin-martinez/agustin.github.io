@@ -1,0 +1,151 @@
+* {
+    font-family: 'Athiti', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    user-select: auto;
+    user-select: text;
+    user-select: contain;
+    user-select: all;
+}
+a {
+    cursor: pointer;
+}
+header {
+    display: flex;
+    flex-direction: row;
+}
+.myname {
+    flex: 8;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    color: #2F4858;
+    margin-block-start: .67em;
+    margin-block-end: .67em;
+    padding-left: .8em;
+}
+.hamburger-menu {
+    background-image: url(../img/menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 40px;
+    
+    flex: 2;
+    justify-content: flex-end;
+    align-self: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.box1 {
+    height: 375px;
+    background: #9EC4B2;
+}
+.box2 {
+    height: 375px;
+    background: #C9A48D;
+}
+.box3 {
+    height: 375px;
+    background: #FFEA99;
+}
+.get-in-touch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+    height: 520px;
+}
+.get-in-touch h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 88px;
+    text-align: center;
+}
+.get-in-touch img {
+    transform: scale(.8);
+}
+.get-in-touch p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+}
+.follow-me {
+    display: grid;
+    grid: 300px / 1fr;
+    justify-self: center;
+    height: 520px;
+}
+.follow-me h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 56px;
+    text-align: center;
+    align-self: center;
+    margin: 1em;
+    padding-top: 2em;
+    color: #2F4858;
+}
+.linkedin-instagram {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+}
+.linkedin-instagram a {
+    padding: 1em;
+}
+.code {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 520px;
+}
+.code h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 96px;
+    text-align: center;
+    color: #2F4858;
+}
+.separator {
+    border: 1px solid #2F4858;
+}
+.white-menu {
+    display: grid;
+    grid-template-rows: 1fr 0.5fr 0.5fr .8fr;
+    grid-gap: 2em;
+    height: 812px;
+}
+.white-menu a {
+    justify-self: center;
+}
+.white-menu-email {
+    align-self: flex-end;
+}
+.white-menu-github {
+    align-self: flex-start;
+}
+.white-menu-linkedin {
+    align-self: flex-end;
+}
+.white-menu-instagram {
+    align-self: flex-start;
+}
+.swipe-line {     
+    border: 1px solid #4B4737;
+    width: 50px;
+    justify-self: center;
+    margin-bottom: 2.5em;
+}
