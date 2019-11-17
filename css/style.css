@@ -24,24 +24,23 @@ a {
     header {
         display: flex;
         flex-direction: row;
+        padding: .5em .5em .5em 1em;
     }
     .myname {
-        flex: 8;
+        flex: 9;
         font-style: normal;
         font-weight: normal;
-        text-align: left;
+        text-align: center;
         color: #2F4858;
-        margin-block-start: .67em;
-        margin-block-end: .67em;
-        padding-left: .8em;
     }
     .hamburger-menu {
-        flex: 2;
+        flex: 1;
         justify-content: flex-end;
         align-self: center;
     }
     .nav-icon {
-        margin: 2em;
+        margin: .5em .5em .5em 1em;
+        align-self: center;
         width: 30px;
     }
     .nav-icon:after, 
