@@ -3,11 +3,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    user-select: none;
-    user-select: auto;
-    user-select: text;
-    user-select: contain;
-    user-select: all;
 }
 a {
     cursor: pointer;
@@ -27,15 +22,27 @@ header {
     padding-left: .8em;
 }
 .hamburger-menu {
-    background-image: url(../img/menu.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    height: 40px;
-    
     flex: 2;
     justify-content: flex-end;
     align-self: center;
+}
+.nav-icon {
+    margin: 2em;
+    width: 30px;
+}
+.nav-icon:after, 
+.nav-icon:before, 
+.nav-icon div {
+    background-color: #2F4858;
+    border-radius: 3px;
+    content: '';
+    display: block;
+    height: 2px;
+    margin: 7px 0;
+    transition: all .2s ease-in-out;
+}
+.nav-icon:hover .white-menu {
+    display: grid;
 }
 .container {
     display: grid;
@@ -123,10 +130,14 @@ header {
     border: 1px solid #2F4858;
 }
 .white-menu {
-    display: grid;
+    display: none;
+    /* display: grid; */
     grid-template-rows: 1fr 0.5fr 0.5fr .8fr;
     grid-gap: 2em;
     height: 812px;
+}
+header:hover .white-menu {
+    position: fixed; 
 }
 .white-menu a {
     justify-self: center;
@@ -149,3 +160,5 @@ header {
     justify-self: center;
     margin-bottom: 2.5em;
 }
+
+/* Animations */
