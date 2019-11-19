@@ -211,15 +211,16 @@ body {
     }
     .box1 {
         text-align: center;
-        height: 420px;
+        height: 520px;
         background: #FEECDF;
         color: #2F4858;
+        padding-top: 3em;
         margin: 2em 1em 0em 1em;
     }
     .box1 h2 {
         position: relative;
         font-weight: 900;
-        top: -1.05em;
+        top: -2.25em;
         font-size: 2.5em;
         text-align: left;
     }
@@ -238,7 +239,8 @@ body {
     }
     .box2 {
         text-align: center;
-        height: 420px;
+        padding-top: 3em;
+        height: 520px;
         background: #98bec8;
         color: #ffffff;
         margin: 0em 1em 0em 1em;
@@ -288,7 +290,7 @@ body {
     }
     .box4 {
         text-align: center;
-        height: 420px;
+        height: 520px;
         background: #ffffff;
         margin: 0em 1em 0em 1em;
     }
@@ -328,7 +330,7 @@ body {
         margin: 0em 1em 0em 1em;
         background-color: #2F4858;
     }
-    .follow-me h2 {
+    .follow-me h3 {
         align-self: center;
         justify-content: center;
         margin-top: 2.5em;
