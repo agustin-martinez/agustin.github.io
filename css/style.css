@@ -8,8 +8,7 @@ a {
     cursor: pointer;
 }
 body {
-    /* background: #FEFBF5; */
-    background: #ffffff;
+    background: linear-gradient(to bottom, #FFFAF5, #ffffff, #ffffff);
 }
 .info {
     display: flex;
@@ -196,7 +195,7 @@ body {
         justify-content: center;
         align-items: center;
         height: 466px;
-        background: #ffffff;
+        /* background: #ffffff; */
         margin: 1em;
     }
     .yo {
